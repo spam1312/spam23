@@ -7,7 +7,7 @@ client.on("ready", () => {
 let channel =     client.channels.get("618428926108368900")
 setInterval(function() {
 channel.send(`EffectSide Best`);
-}, 10000)
+}, 90)
 })
 
 client.login(process.env.BOT_TOKEN);
